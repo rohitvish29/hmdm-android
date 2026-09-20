@@ -19,6 +19,12 @@
 
 package com.hmdm.launcher.ui;
 
+
+import android.app.admin.DevicePolicyManager;
+import android.content.ComponentName;
+import android.os.Build;
+import android.util.Log;
+import com.hmdm.launcher.AdminReceiver;
 import android.Manifest;
 import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
